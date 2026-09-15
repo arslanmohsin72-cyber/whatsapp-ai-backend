@@ -1,0 +1,44 @@
+# Node & Build artifacts
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.id_rsa
+*.id_rsa.pub
+
+# WhatsApp Session Storage & Credentials
+auth_info_baileys/
+sessions/
+*.session
+*.session-journal
+*.data.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pm2.log
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary Files
+tmp/
+temp/
+scratch/
